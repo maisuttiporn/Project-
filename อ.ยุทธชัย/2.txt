@@ -1,0 +1,18 @@
+﻿การปรับปรุง TPC-H Query เพื่อ Load Balancing บน MySQL Cluster
+
+โดย รังสรรค์ พรพัฒนา
+มหาวิทยาลับมหิดล
+
+งานวิจัยนี้มีเป้าหมายเพื่อประยุกต์ใช้กลยุทธ์ ต่างๆในการ Execution และเทคนิคการ Optimization สำรหับ SQL ที่มีความซับซ้อนบน Mysql Server loadbalance 
+
+ในขณะที่ Execution plan ถูกควบคุมที่ระดับ SQL Stagement เพื่อให้ได้ Execution plan ที่ดีที่สุด โดยการเพิ่ม SQL Hint หรือ Information และการ Rewriting SQL โดยใช้ TPC-H ซึ่งเป็น Decision Support benchmark ในการวัดประาฃสิทธิภาพ 
+
+ผลการทดสอบได้ถูกเปรียบเทียบจากหลาย โหนด พบว่าประสิทธิภาพดีขึ้น
+
+
+จบ
+
+
+
+
+
